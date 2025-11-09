@@ -1,0 +1,105 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Login / Register – Cellular Master</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .auth-wrapper {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #0b3b59;
+      color: #ffffff;
+    }
+    .auth-card {
+      background: #ffffff;
+      color: #102a43;
+      border-radius: 18px;
+      padding: 24px 22px 26px;
+      width: 100%;
+      max-width: 420px;
+      box-shadow: 0 20px 45px rgba(0,0,0,0.35);
+    }
+    .auth-card h1 {
+      margin: 0 0 8px;
+      font-size: 24px;
+    }
+    .auth-card p {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    .auth-card label {
+      display: block;
+      font-size: 13px;
+      margin-top: 10px;
+      margin-bottom: 4px;
+    }
+    .auth-card input {
+      width: 100%;
+      padding: 9px 10px;
+      border-radius: 8px;
+      border: 1px solid #cbd2e1;
+      font-size: 14px;
+    }
+    .auth-buttons {
+      display: flex;
+      gap: 10px;
+      margin-top: 16px;
+    }
+    .auth-btn-primary {
+      flex: 1;
+      border-radius: 999px;
+      border: none;
+      padding: 10px 0;
+      background: #f5c518;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .auth-btn-secondary {
+      flex: 1;
+      border-radius: 999px;
+      border: 1px solid #d0d8e6;
+      padding: 10px 0;
+      background: #f5f7fb;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .auth-back {
+      margin-top: 16px;
+      text-align: center;
+      font-size: 13px;
+    }
+    .auth-back a {
+      color: #0b3b59;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="auth-wrapper">
+    <div class="auth-card">
+      <h1>Login / Register</h1>
+      <p>Create an account to keep track of your repairs and favourite models. For now this form is a visual demo.</p>
+      <label for="name">Name</label>
+      <input id="name" type="text" placeholder="Your full name">
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="you@example.com">
+      <label for="password">Password</label>
+      <input id="password" type="password" placeholder="Minimum 6 characters">
+
+      <div class="auth-buttons">
+        <button class="auth-btn-primary">Register</button>
+        <button class="auth-btn-secondary">Login</button>
+      </div>
+
+      <div class="auth-back">
+        <a href="index.html">← Back to website</a>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+console.log('Cellular Master v3 loaded');
